@@ -1,0 +1,19 @@
+{
+  "proxy": "http://127.0.0.1:7890",
+  "output": "F:/斗鱼视频",
+  "user": [
+    {
+      "platform": "Douyu",
+      "id": "1769784",
+      "name": "尤优baby",
+      "interval": 10,
+      "format": "mp4",
+      "output": "F:/斗鱼视频",
+      "proxy": "http://127.0.0.1:7890",
+      "headers": {
+        "Referer": "https://www.douyu.com/"
+      },
+      "cookies": "null"
+    }
+  ]
+}

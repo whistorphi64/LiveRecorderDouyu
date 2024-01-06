@@ -1,0 +1,10 @@
+ffmpeg
+ffmpeg-python
+httpx[http2]
+streamlink
+loguru
+httpx
+jsengine
+https_socks
+jsonpath_ng
+tenacity
