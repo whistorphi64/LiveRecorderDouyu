@@ -6,7 +6,7 @@ import schedule
 
 def run_main_logic():
     # 导入并执行主体逻辑文件
-    main_logic = import_module('./live_recorder.py')
+    main_logic = import_module('main_logic')
     main_logic.run_main_logic()
 
 def time_check():
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     time_check_thread.start()
 
     # 使用 schedule 库添加每天定时任务
-    schedule.every().day.at("23:00").do(daily_job)  # 在每天12:00执行任务
+    schedule.every().day.at("12:00").do(daily_job)  # 在每天12:00执行任务
 
     while True:
         schedule.run_pending()
