@@ -1,5 +1,3 @@
-<img src="https://socialify.git.ci/auqhjjqdo/LiveRecorder/image?font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto" alt="LiveRecorder"/>
-
 ## 简介
 
 一款无人值守直播录制脚本，基于强大的[Streamlink](https://streamlink.github.io)
