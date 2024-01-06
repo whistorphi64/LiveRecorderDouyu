@@ -49,7 +49,7 @@
 git clone https://github.com/auqhjjqdo/LiveRecorder.git
 cd LiveRecorder
 # 安装依赖
-python3 -m pip install .
+pip install -r requirements.txt
 # 源码运行
 python3 live_recorder.py
 ```
